@@ -16,6 +16,15 @@ const scaleVariants = {
   },
 };
 
+const logos = [images.react, images.postgreSQL, images.sass, images.bootstrap, images.express, images.git, images.html, images.javascript, images.mongodb, images.mongoose, images.vue, images.node, images.css]
+
+const getMultipleRandom = (arr, num) => {
+  const shuffled = [...arr].sort(() => 0.5 - Math.random());
+
+  return shuffled.slice(0, num);
+}
+
+
 const Header = () => (
   <div className="app__header app__flex">
     <motion.div
@@ -58,7 +67,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.flutter, images.redux, images.sass].map((circle, index) => (
+      {getMultipleRandom(logos, 3).map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>
