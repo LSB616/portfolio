@@ -25,6 +25,7 @@ import bootstrap from '../assets/bootstrap.png'
 import mongoose from '../assets/mongoose.png'
 import mongodb from '../assets/mongodb.jpg'
 import express from '../assets/express.jpg'
+import logo_noback from '../assets/logo_noback.png'
 
 export default {
   email,
@@ -53,5 +54,6 @@ export default {
   bootstrap,
   mongoose,
   mongodb,
-  express
+  express,
+  logo_noback
 };
