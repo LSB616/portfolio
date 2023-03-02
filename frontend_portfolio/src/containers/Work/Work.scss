@@ -68,6 +68,14 @@
         width: 470px;
         padding: 1.25rem;
         border-radius: 0.75rem;
+        height: 600px;
+      }
+
+      @media screen and (max-width: 1080px) {
+        width: 470px;
+        padding: 1.25rem;
+        border-radius: 0.75rem;
+        height: 400px;
       }
   
       @media screen and (max-width: 300px) {
