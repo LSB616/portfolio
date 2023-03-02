@@ -1,5 +1,6 @@
 {
   "name": "frontend_portfolio",
+  "homepage": "http://lewisbotcherby.co.uk/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
