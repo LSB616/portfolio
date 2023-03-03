@@ -26,6 +26,7 @@ import mongoose from '../assets/mongoose.png'
 import mongodb from '../assets/mongodb.jpg'
 import express from '../assets/express.jpg'
 import logo_noback from '../assets/logo_noback.png'
+import grey_profile from '../assets/grey_profile.png'
 
 export default {
   email,
@@ -55,5 +56,6 @@ export default {
   mongoose,
   mongodb,
   express,
-  logo_noback
+  logo_noback,
+  grey_profile
 };
